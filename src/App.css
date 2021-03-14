@@ -23,6 +23,10 @@
 .navBar {
   grid-area: navBar;
   margin-right: 3rem;
+  cursor: pointer;
+}
+.navBar :hover {
+  color: pink;
 }
 .navItem{
   list-style: none;
